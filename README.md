@@ -5,11 +5,17 @@ React for Frontend <br />
 AppWrite for Backend (BaaS) <br />
 TinyMCE - Text Editor <br />
 React Hook Form - Easy-to-use forms <br />
+Redux ToolKit - State Management <br />
+Tailwind CSS <br />
+HMTL React Parser <br />
+React Router DOM - Declarative routing <br />
 
 ### Features:
 Sign Up, Sign In, View All Posts, Add Blog, Edit Blog
 
-
+<br />
+<br />
+<br />
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
