@@ -1,7 +1,7 @@
 import config from "../config/config"
 import { Client, Account, ID } from "appwrite"
 
-class AuthService{
+export class AuthService{
     client = new Client();
     account;
 
@@ -40,15 +40,15 @@ class AuthService{
 
     async getCurrentUser(){
         try {
-            const user =  await this.account.get()
+            const user = await this.account.get()
             if(user){
-                return user
-            } else {
-                return null
+                return user 
             }
+            // else {
+            //     return null
+            // }
         } catch (error) {
             console.log('Get Current User Error:', error)
-            throw error
         }
     }
 
